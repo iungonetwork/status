@@ -1,0 +1,18 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  mustache:
+    prefix: classpath:/templates/
+    suffix: .mustache
+
+logging:
+  level:
+    network.iungo: INFO
+    org.springframework: ERROR
+
+bitbucket:
+  account: ${BITBUCKET_ACCOUNT:MY_ACCOUNT}
+  key: ${BITBUCKET_KEY:MY_KEY}
+  secret: ${BITBUCKET_SECRET:MY_SECRET}
+  repositories: ${BITBUCKET_REPOSITORIES:MY_COMMA_SEPARATED_REPOSITORIES}

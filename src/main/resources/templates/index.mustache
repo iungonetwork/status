@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+{{> partial/header }}
+<body>
+
+<div class="ui text container">
+    <h1 class="zui diviing hader titlez"><img src="./logo.png" alt="IUNGO Network" width="190" height="44"></h1>
+    <div class="ui segments">
+        {{#services}}
+            {{> component/service }}
+        {{/services}}
+    </div>
+    <h2 class="iungoblue">Development activity</h2>
+    {{> component/devchart }}
+</div>
+
+<script src="./punchcard.js"></script>
+
+<style type="text/css">
+
+    body {
+        padding: 50px;
+        font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        /*background-color: #797B92;*/
+        /*background-color: lightskyblue;*/
+        background-color: whitesmoke;
+    }
+
+    .iungoblue {
+        color: rgb(86, 133, 237) !important;
+    }
+
+    .service > .title {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .service > .url {
+        font-size: 13px;
+        color: #2f4f4fa1;
+        margin-top: 10px;
+    }
+
+    .service > .time {
+        color: gray;
+        position: absolute;
+        right: 12px;
+        bottom: 8px;
+    }
+
+    /* Some basic formatting */
+    code {
+        background-color: #E0E0E0;
+        padding: 0.25em 0.3em;
+        font-family: 'Lato';
+        font-weight: bold;
+    }
+
+    .container {
+        padding: 2em 0em;
+    }
+
+    .ui.dividing.header,
+    .first {
+        margin-top: 2em;
+    }
+
+    .ui.dividing.header:first-child {
+        margin-top: 0em;
+    }
+
+    h1,
+    h3 {
+        margin-top: 0em;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+    }
+
+    img + img {
+        margin-top: 0.5em;
+    }
+
+    /* Shows content box (not negative margins) */
+    .grid {
+        position: relative;
+    }
+
+    .grid:before {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        background-color: #F0F0F0;
+        content: '';
+        width: calc(100% - 2rem);
+        height: calc(100% - 2rem);
+        box-shadow: 0px 0px 0px 1px #DDDDDD inset;
+    }
+
+    .ui.divided.grid:before,
+    .celled.grid:before {
+        display: none;
+    }
+
+    .ui.aligned .column:after {
+        display: none !important;
+    }
+
+    .grid .column:not(.row):not(.grid):after {
+        background-color: rgba(86, 61, 124, .15);
+        box-shadow: 0px 0px 0px 1px rgba(86, 61, 124, 0.2) inset;
+        content: "";
+        display: block;
+        min-height: 50px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .stackable.grid:before {
+            width: 100%;
+            left: 0em;
+        }
+    }
+</style>
+</body>
+</html>

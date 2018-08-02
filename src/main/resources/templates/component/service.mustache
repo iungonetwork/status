@@ -1,0 +1,16 @@
+{{#online}}
+    <div class="ui green segment service">
+        <span class="ui green ribbon label small"><i class="check icon"></i> ONLINE</span>
+        <span class="title" title="{{description}}">{{title}}</span>
+        <p class="url">{{url}}</p>
+        <p class="time">Checked {{checkedPretty}}</p>
+    </div>
+{{/online}}
+{{^online}}
+    <div class="ui red segment service">
+        <span class="ui red ribbon label small"><i class="times icon"></i> OFFLINE</span>
+        <span class="title" title="{{description}}">{{title}}</span>
+        <p class="url">{{url}}</p>
+        <p class="time">Checked {{checkedPretty}}</p>
+    </div>
+{{/online}}

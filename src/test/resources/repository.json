@@ -1,0 +1,91 @@
+{
+  "scm": "git",
+  "website": "",
+  "has_wiki": true,
+  "name": "core",
+  "links": {
+    "watchers": {
+      "href": "https://api.bitbucket.org/2.0/repositories/iungonetwork/core/watchers"
+    },
+    "branches": {
+      "href": "https://api.bitbucket.org/2.0/repositories/iungonetwork/core/refs/branches"
+    },
+    "tags": {
+      "href": "https://api.bitbucket.org/2.0/repositories/iungonetwork/core/refs/tags"
+    },
+    "commits": {
+      "href": "https://api.bitbucket.org/2.0/repositories/iungonetwork/core/commits"
+    },
+    "clone": [
+      {
+        "href": "https://iungonetwork@bitbucket.org/iungonetwork/core.git",
+        "name": "https"
+      },
+      {
+        "href": "git@bitbucket.org:iungonetwork/core.git",
+        "name": "ssh"
+      }
+    ],
+    "self": {
+      "href": "https://api.bitbucket.org/2.0/repositories/iungonetwork/core"
+    },
+    "source": {
+      "href": "https://api.bitbucket.org/2.0/repositories/iungonetwork/core/src"
+    },
+    "html": {
+      "href": "https://bitbucket.org/iungonetwork/core"
+    },
+    "avatar": {
+      "href": "https://bytebucket.org/ravatar/%7Bfcadcaa7-9cf6-4215-96c4-d29fcc22f31c%7D?ts=java"
+    },
+    "hooks": {
+      "href": "https://api.bitbucket.org/2.0/repositories/iungonetwork/core/hooks"
+    },
+    "forks": {
+      "href": "https://api.bitbucket.org/2.0/repositories/iungonetwork/core/forks"
+    },
+    "downloads": {
+      "href": "https://api.bitbucket.org/2.0/repositories/iungonetwork/core/downloads"
+    },
+    "issues": {
+      "href": "https://api.bitbucket.org/2.0/repositories/iungonetwork/core/issues"
+    },
+    "pullrequests": {
+      "href": "https://api.bitbucket.org/2.0/repositories/iungonetwork/core/pullrequests"
+    }
+  },
+  "fork_policy": "no_public_forks",
+  "uuid": "{fcadcaa7-9cf6-4215-96c4-d29fcc22f31c}",
+  "language": "java",
+  "created_on": "2018-03-19T12:29:55.509416+00:00",
+  "mainbranch": {
+    "type": "branch",
+    "name": "master"
+  },
+  "full_name": "iungonetwork/core",
+  "has_issues": true,
+  "owner": {
+    "username": "iungonetwork",
+    "display_name": "info@iungo.network",
+    "account_id": "557058:2b5a7b01-11e5-4c31-8568-df1c10b0a812",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/users/iungonetwork"
+      },
+      "html": {
+        "href": "https://bitbucket.org/iungonetwork/"
+      },
+      "avatar": {
+        "href": "https://bitbucket.org/account/iungonetwork/avatar/"
+      }
+    },
+    "type": "user",
+    "uuid": "{10ce5f32-58cd-4c4e-ace6-db79339ca739}"
+  },
+  "updated_on": "2018-07-19T09:39:01.449764+00:00",
+  "size": 3798848,
+  "type": "repository",
+  "slug": "core",
+  "is_private": true,
+  "description": ""
+}
